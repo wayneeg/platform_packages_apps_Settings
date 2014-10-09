@@ -137,4 +137,9 @@
     <string name="back_height_high_label">Unterseite</string>
     <string name="back_options_dialog_title">Optionen</string>
     <string name="back_height_message">Größe der Bildschirmhöhe, die als berührbarer Bereich für die Hintergrundbewegung verwendet wird.</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">Änderungshistorie</string>
+    <string name="changelog_summary">Seit dem letzten Update</string>
+    <string name="changelog_error">Changelog kann nicht geladen werden</string>
 </resources>
