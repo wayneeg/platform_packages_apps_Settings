@@ -36,6 +36,7 @@ import com.android.settings.accounts.ManagedProfileSettings;
 import com.android.settings.applications.AppAndNotificationDashboardFragment;
 import com.android.settings.applications.ProcessStatsSummary;
 import com.android.settings.applications.ProcessStatsUi;
+import com.android.settings.applications.RunningServices;
 import com.android.settings.applications.UsageAccessDetails;
 import com.android.settings.applications.appinfo.AppInfoDashboardFragment;
 import com.android.settings.applications.appinfo.DrawOverlayDetails;
@@ -287,6 +288,8 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             DerpQuestSettings.class.getName(),
             QuickSettings.class.getName(),
+            // AEX additions
+            RunningServices.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -327,5 +330,7 @@ public class SettingsGateway {
             UserBackupSettingsActivity.class.getName(),
             Settings.DerpQuestSettingsActivity.class.getName(),
             Settings.QuickSettingsActivity.class.getName(),
+            // AEX additions
+            Settings.DevRunningServicesActivity.class.getName()
     };
 }
