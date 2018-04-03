@@ -28,6 +28,9 @@
     <!-- AOSiP Version -->
     <string name="aosip_version">DerpFest version</string>
 
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">Maintainer</string>
+
     <!-- DerpFest Build types -->
     <string name="build_type">Build Type</string>
     <string name="derp_official">Official</string>

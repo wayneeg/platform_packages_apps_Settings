@@ -57,6 +57,14 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AOSiPVersionPreferenceController"/>
 
+    <!-- DerpFest maintainer -->
+    <Preference
+        android:key="maintainer"
+        android:title="@string/maintainer"
+        android:summary="@string/summary_placeholder"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpMaintainerPreferenceController"/>
+
     <!-- DerpFest build type -->
     <Preference
         android:key="build_type"
