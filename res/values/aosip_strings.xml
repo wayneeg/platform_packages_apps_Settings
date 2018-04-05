@@ -249,4 +249,7 @@
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Saved Earbuds</string>
+
 </resources>
