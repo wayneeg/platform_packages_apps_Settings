@@ -152,4 +152,10 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">Always on when charging</string>
     <string name="doze_on_charge_summary">Show doze screen all the time when charging</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
 </resources>
