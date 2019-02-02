@@ -139,6 +139,7 @@
         <item>@string/qstile_attemptmountain</item>
         <item>@string/qstile_squaremedo</item>
         <item>@string/qstile_inkdrop</item>
+        <item>@string/qstile_cookie</item>
         <item>@string/qstile_cosmos</item>
         <item>@string/qstile_divided</item>
         <item>@string/qstile_neonlike</item>
@@ -163,6 +164,7 @@
         <item>13</item>
         <item>14</item>
         <item>15</item>
+        <item>16</item>
     </string-array>
 
 </resources>
