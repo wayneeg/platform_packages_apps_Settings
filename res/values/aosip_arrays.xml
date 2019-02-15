@@ -140,6 +140,7 @@
         <item>@string/qstile_squaremedo</item>
         <item>@string/qstile_inkdrop</item>
         <item>@string/qstile_cookie</item>
+        <item>@string/qstile_circleoutline</item>
         <item>@string/qstile_cosmos</item>
         <item>@string/qstile_divided</item>
         <item>@string/qstile_neonlike</item>
@@ -165,6 +166,7 @@
         <item>14</item>
         <item>15</item>
         <item>16</item>
+        <item>17</item>
     </string-array>
 
 </resources>
