@@ -26,7 +26,14 @@
     <string name="battery_stats_message">Battery history stats are going to be reset</string>
 
     <!-- AOSiP Version -->
-    <string name="aosip_version">DerpFest Build</string>
+    <string name="aosip_version">DerpFest version</string>
+
+    <!-- DerpFest Build types -->
+    <string name="build_type">Build Type</string>
+    <string name="derp_official">Official</string>
+    <string name="derp_ci">CI</string>
+    <string name="derp_private">Private</string>
+    <string name="derp_community">Community</string>
 
     <!-- Screenshot shutter -->
     <string name="screenshot_shutter_sound_title">Screenshot shutter sound</string>

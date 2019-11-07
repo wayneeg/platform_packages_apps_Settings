@@ -57,6 +57,13 @@
         settings:enableCopying="true"
         settings:controller="com.android.settings.deviceinfo.firmwareversion.AOSiPVersionPreferenceController"/>
 
+    <!-- DerpFest build type -->
+    <Preference
+        android:key="build_type"
+        android:title="@string/build_type"
+        settings:enableCopying="true"
+        settings:controller="com.android.settings.deviceinfo.firmwareversion.DerpBuildTypePreferenceController"/>
+
     <!-- Changelog -->
     <Preference
         android:key="changelog"
