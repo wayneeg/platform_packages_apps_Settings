@@ -196,4 +196,7 @@
     <!-- IME block back -->
     <string name="back_block_ime_title">Block height of virtual keyboard as touchable region for back gesture</string>
 
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">Screenshot sounds</string>
+
 </resources>

@@ -218,6 +218,12 @@
           android:summary="@string/vibrate_on_touch_summary"
           settings:keywords="@string/keywords_vibrate_on_touch"/>
 
+        <!-- Enable/Disable Screenshot sound -->
+        <com.derpquest.settings.preferences.SystemSettingSwitchPreference
+          android:key="screenshot_sound"
+          android:title="@string/screenshot_sound_title"
+          android:defaultValue="false" />
+
         <!-- Dock speaker plays -->
         <DropDownPreference
           android:key="dock_audio_media"
