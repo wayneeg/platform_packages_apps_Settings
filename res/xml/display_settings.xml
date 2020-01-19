@@ -173,14 +173,6 @@
             android:title="@string/developer_smallest_width" />
     </PreferenceCategory>
 
-    <com.derpquest.settings.preferences.SystemSettingListPreference
-        android:key="display_cutout_hidden"
-        android:title="@string/display_cutout_mode_title"
-        android:entries="@array/display_cutout_mode_entries"
-        android:entryValues="@array/display_cutout_mode_values"
-        android:defaultValue="0"
-        settings:controller="com.android.settings.display.DisplayCutoutPreferenceController" />
-
     <com.derpquest.settings.preferences.SystemSettingSwitchPreference
         android:key="enable_conditions"
         android:title="@string/dashboard_conditions_title"
