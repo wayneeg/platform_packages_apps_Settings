@@ -199,4 +199,7 @@
     <!-- Enable/Disable Screenshot sound -->
     <string name="screenshot_sound_title">Screenshot sounds</string>
 
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture.</string>
+
 </resources>
