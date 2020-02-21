@@ -30,8 +30,8 @@
 
     <!-- DerpFest maintainer -->
     <string name="maintainer">Maintainer</string>
-    <string name="maintainer_name">Alexander Brunswig</string>
-    <string name="maintainer_telegram">https://t.me/DerpFest5T</string>
+    <string name="maintainer_name" translatable="false">Alexander Brunswig</string>
+    <string name="maintainer_telegram" translatable="false">https://t.me/DerpFest5T</string>
 
     <!-- DerpFest Build types -->
     <string name="build_type">Build Type</string>
