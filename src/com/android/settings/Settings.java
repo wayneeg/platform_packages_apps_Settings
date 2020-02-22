@@ -180,8 +180,9 @@ public class Settings extends SettingsActivity {
     public static class DerpQuestSettingsActivity extends SettingsActivity { /* empty */ }
     public static class QuickSettingsActivity extends SettingsActivity { /* empty */ }
     public static class SwipeToNotificationSuggestionActivity extends SettingsActivity { /* empty */ }
-    
-    // AospExtended Additions.
-    public static class ExtensionsSettingsActivity extends SettingsActivity {}
+
+    // DerpFest Additions.
+    public static class LockscreenDashboardActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
+
 }
