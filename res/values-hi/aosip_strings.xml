@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2020 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">डर्पफेस्ट अपडेटर </string>
+    <string name="update_settings_summary">ROM के नवीनतम संस्करण की जाँच करें</string>
+    <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
+    <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">आँकड़े रीसेट करें</string>
+    <string name="battery_stats_message">बैटरी इतिहास आँकड़े रीसेट करने जा रहे हैं</string>
+
+    <!-- AOSiP Version -->
+    <string name="aosip_version">डर्पफेस्ट संस्करण</string>
+
+    <!-- DerpFest maintainer -->
+    <string name="maintainer">मेंटेनर</string>
+    
+
+    <!-- DerpFest Build types -->
+    <string name="build_type">बिल्ड प्रकार</string>
+    <string name="derp_official">आधिकारिक</string>
+    <string name="derp_ci">CI</string>
+    <string name="derp_private">निजी</string>
+    <string name="derp_community">समुदाय</string>
+
+    <!-- Adb over Network -->
+    <string name="adb_over_network">नेटवर्क पर एडीबी</string>
+    <string name="adb_over_network_summary">नेटवर्क इंटरफेस (वाई-फाई, यूएसबी नेटवर्क) पर टीसीपी/आईपी डिबगिंग सक्षम करें। यह सेटिंग रिबूट पर रीसेट हो जाती है</string>
+    <string name="adb_over_network_warning">चेतावनी: जब ADB नेटवर्क सक्षम होता है, तो आपका फ़ोन GSM डेटा नेटवर्क सहित सभी कनेक्टेड नेटवर्क पर घुसपैठ के लिए खुला होता है! \n\n इस सुविधा का उपयोग तब करें जब आप विश्वसनीय नेटवर्क पर कनेक्ट हों। \n\n क्या आप वास्तव में इसे सक्षम करना चाहते हैं ?</string>
+    <string name="adb_over_network_warning_title">नेटवर्क पर ADB की अनुमति दें?</string>
+
+    <!-- Density category -->
+    <string name="density_category">घनत्व विकल्प</string>
+
+    <!-- Device Parts -->
+    <string name="device_part_title">डिवाइस सुविधाएँ</string>
+    <string name="device_part_summary">डिवाइस की विशिष्ट विशेषताएं</string>
+
+    <string name="battery_temp">बैटरी का तापमान</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">गूगल प्ले</string>
+
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">फिंगरप्रिंट सेंसर का अपने फोन की स्क्रीन पर स्थान निर्धारण करें।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">फिंगरप्रिंट सेंसर का अपने फोन के बाईं ओर स्थान निर्धारण करें।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">फिंगरप्रिंट सेंसर का अपने फोन के दाईं ओर स्थान निर्धारण करें।</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">फिंगरप्रिंट सेंसर का अपने डिवाइस की स्क्रीन पर स्थान निर्धारण करें।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">फिंगरप्रिंट सेंसर का अपने डिवाइस के बाईं ओर स्थान निर्धारण करें।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">फिंगरप्रिंट सेंसर का अपने फोन के दाईं ओर स्थान निर्धारण करें।</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">अपने टैबलेट के फ्रंट पर फिंगरप्रिंट सेंसर का स्थान निर्धारण करें।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">अपने टैबलेट के बाईं ओर फिंगरप्रिंट सेंसर का स्थान निर्धारण करें।</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">अपने टेबलेट के दाईं ओर फ़िंगरप्रिंट सेंसर का स्थान निर्धारण करें।</string>
+
+    <!-- DerpQuest Settings strings -->
+    <string name="derp_settings_title">डर्पक्वेस्ट</string>
+    <string name="derp_settings_summary">क्रोनिक में हमें भरोसा है ...</string>
+    <string name="derp_extras_qs_title">त्वरित सेटिंग्स</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">त्वरित अनलॉक</string>
+    <string name="unlock_quick_unlock_control_summary">सही पिन/पासवर्ड दर्ज करने पर स्वचालित रूप से अनलॉक करें</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">हल्का रंग</string>
+    <string name="custom_light_on_time_title">एलईडी पल्स के दौरान प्रकाश समय (मिली सेकंड)</string>
+    <string name="custom_light_off_time_title">एलईडी बंद समय के दौरान पल्स (मिली सेकंड)</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">जानकारी दिखाने के लिए टैप करें</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">फोन रिंगटोन - सिम 1</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">फोन रिंगटोन - सिम 2</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">चार्जिंग कंपन</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">सूचना ध्वनियों के बीच न्यूनतम समय</string>
+    <string name="app_notification_sound_timeout_summary_template">ध्वनियों या कंपन को एक से अधिक बार हर <xliff:g id="duration">%1$s</xliff:g> में अनुमति दें</string>
+    <string name="app_notification_sound_timeout_value_none">कोई प्रतिबंध नहीं</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">दस सेकंड</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 सेकंड</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 मिनट</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 मिनट</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 मिनटों</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 मिनिट</string>
+
+    <!-- Disable dashboards conditions and suggestions -->
+    <string name="dashboard_conditions_title">डैशबोर्ड की स्थिति</string>
+    <string name="summary_dashboard_conditions_enabled">डैशबोर्ड की स्थितियां सक्षम हैं</string>
+    <string name="summary_dashboard_conditions_disabled">डैशबोर्ड की स्थितियां अक्षम हैं</string>
+    <string name="dashboard_suggestions_title">डैशबोर्ड के सुझाव</string>
+    <string name="summary_dashboard_suggestions_enabled">डैशबोर्ड सुझाव सक्षम हैं</string>
+    <string name="summary_dashboard_suggestions_disabled">डैशबोर्ड सुझाव अक्षम हैं</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">पूर्ण स्क्रीन एप्लिकेशन</string>
+    <string name="display_cutout_force_fullscreen_summary">नोच स्थान को अनदेखा करने के लिए ऐप्स को फोर्स करें</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">रिंग और सूचना ध्वनियों को जोड़ें</string>
+
+    <!-- Dismiss notifications with back FP swipe -->
+    <string name="fp_swipe_to_dismiss_notifications_title">सूचनाओं को खारिज करने के लिए फिंगरप्रिंट को बाएं या दाएं स्वाइप करें</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">अपनी सूचनाओं को खारिज करने के लिए, अपने फोन के पीछे फिंगरप्रिंट सेंसर पर बाएं या दाएं स्वाइप करें।</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">संगीत ट्रैक आगे/पीछे करें</string>
+    <string name="volume_skiptrack_title">वॉल्यूम रॉकर स्किप ट्रैक</string>
+    <string name="volume_skiptrack_summary">म्यूज़िक प्ले करते समय ट्रैक्स को स्किप करने के लिए वॉल्यूम रॉकर को दबाएं, यहाँ तक कि टीवी या पीसी पर दूरस्थ रूप से । उदाहरण के लिए Spotify (ऐप को फोन पर चलना चाहिए और नोटिफिकेशन दिखाना होगा)।</string>
+
+    <string name="ambient_wake_gestures_title">एंबिएंट वेक जेस्चर</string>
+    <string name="ambient_wake_gestures_summary">वेक जेस्चर पर सामान्य लॉकस्क्रीन के बजाय एम्बिएंट डिस्प्ले दिखाएं</string>
+
+    <string name="pulse_on_new_tracks_title">एंबिएंट संगीत टिकर</string>
+    <string name="pulse_on_new_tracks_summary">नया संगीत ट्रैक चलाने पर एंबिएंट डिस्प्ले दिखाएं। अगले ट्रैक पर जाने के लिए ट्रैक जानकारी पर डबल टैप करें।</string>
+    <string name="ambient_ticker_footer">एंबिएंट संगीत टिकर लॉक स्क्रीन और एंबिएंट स्क्रीन पर संगीत ट्रैक जानकारी को दिखाता है।\n\n यह तब भी ट्रिगर हो जाता है यदि एक नया ट्रैक शुरू होने पर पर एंबिएंट डिस्प्ले बंद हो, और एक स्वच्छ एंबिएंट डिस्प्ले को दिखाता है ट्रैक की जानकारी के साथ।\n\n आप अगले ट्रैक पर जाने के लिए ट्रैक जानकारी पर डबल टैप भी कर सकते हैं।\n\n यदि आप एक पिक्सेल (दूसरी पीढ़ी और उच्चतर) के मालिक हैं और सिस्टम ऑडियो सेटिंग्स में \"अब प्लेइंग \" और इसकी सूचना सक्षम कर सकते हैं, एंबिएंट संगीत टिकर भी इसके भीतर काम करेगा।</string>
+
+    <string name="back_height_low_label">पूर्ण</string>
+    <string name="back_height_high_label">तल</string>
+    <string name="back_options_dialog_title">विकल्प</string>
+    <string name="back_height_message">स्क्रीन की ऊंचाई का वह छू सकने वाला हिस्सा जिसका उपयोग बैक जेस्चर के लिए किया जाता है।</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">चार्ज करने पर हमेशा</string>
+    <string name="doze_on_charge_summary">चार्ज करते समय हर समय डोज़ स्क्रीन दिखाएं</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">मंच</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">कुल रैम</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">बदलाव </string>
+    <string name="changelog_summary">आखिरी अपडेट के बाद से</string>
+    <string name="changelog_error">बदलाव लोड करने में असमर्थ</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">बढ़ती हुई रिंग ध्वनि</string>
+    <string name="increasing_ring_min_volume_title">ध्वनि शुरू करें</string>
+    <string name="increasing_ring_ramp_up_time_title">रैंप-अप टाइम</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux स्थिति</string>
+    <string name="selinux_status_disabled">अक्षम</string>
+    <string name="selinux_status_permissive">पर्मिसिव</string>
+    <string name="selinux_status_enforcing">इनफॉर्सिंग</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">बैक जेस्चर के लिए एक एनिमेटेड तीर दिखाएं।</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">दो बार टैप</string>
+    <string name="doze_double_tap_title">फोन चेक करने के लिए दो बार टैप करें</string>
+    <string name="doze_double_tap_summary">पल्स नोटिफिकेशन डबल टैप द्वारा</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">डिवाइस होस्ट नाम</string>
+
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">निर्बाध फुलस्क्रीन जेस्चर के लिए नेविगेशन बार पिल छिपाएँ।</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">ग्राहकों को वीपीएन का उपयोग करने की अनुमति दें</string>
+    <string name="tethering_allow_vpn_upstreams_summary">हॉटस्पॉट क्लाइंट्स को अपस्ट्रीम कनेक्टिविटी के लिए इस डिवाइस का वीपीएन कनेक्शन का उपयोग करने की अनुमति दें</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">पृष्ठभूमि की प्रक्रिया</string>
+
+    <!-- IME block back -->
+    <string name="back_block_ime_title">बैक जेस्चर के लिए जेस्चर करने योग्य क्षेत्र के रूप में वर्चुअल कीबोर्ड की ब्लॉक ऊंचाई</string>
+
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">स्क्रीनशॉट ध्वनि</string>
+
+</resources>
