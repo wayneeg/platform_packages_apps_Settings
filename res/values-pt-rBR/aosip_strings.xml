@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2020 DerpFest
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">Atualizador DerpFest</string>
+    <string name="update_settings_summary">Procurar pela versão mais recente da Rom</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">Redefinir estatísticas</string>
+    <string name="battery_stats_message">As estatísticas do histórico da bateria serão redefinidas</string>
+    <!-- AOSiP Version -->
+    <string name="aosip_version">Versão do DerpFest</string>
+    <!-- DerpFest Build types -->
+    <string name="build_type">Tipo de compilação</string>
+    <string name="derp_official">Oficial</string>
+    <string name="derp_ci">CI</string>
+    <string name="derp_private">Privado</string>
+    <string name="derp_community">Comunidade</string>
+    <!-- Adb over Network -->
+    <string name="adb_over_network">ADB através da rede</string>
+    <string name="adb_over_network_summary">Ativar a depuração de TCP/IP sobre as interfaces de rede (Wi-Fi, redes USB). Esta definição é restaurada ao reiniciar</string>
+    <string name="adb_over_network_warning">AVISO: Quando o ADB pela rede é ativado, o seu telefone fica desprotegido e pode facilitar invasões em todas as redes conectadas, incluindo rede de dados GSM!\n\nUse este recurso somente quando você está conectado em uma rede confiável.\n\nVocê realmente quer habilitar esta função?</string>
+    <string name="adb_over_network_warning_title">Permitir ADB através da rede?</string>
+    <!-- Density category -->
+    <string name="density_category">Opções de densidade</string>
+    <!-- Device Parts -->
+    <string name="device_part_title">Recursos do dispositivo</string>
+    <string name="device_part_summary">Recursos específicos do dispositivo</string>
+    <string name="battery_temp">Temperatura da Bateria</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Localize o sensor de impressão digital na parte frontal do seu telefone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Localize o sensor de impressão digital no lado esquerdo do seu telefone.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Localize o sensor de impressão digital no lado direito do seu telefone.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Localize o sensor de impressão digital na parte frontal do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Localize o sensor de impressão digital no lado esquerdo do seu dispositivo.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Localize o sensor de impressão digital no lado direito do seu dispositivo.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Localize o sensor de impressão digital na parte frontal do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Localize o sensor de impressão digital no lado esquerdo do seu tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Localize o sensor de impressão digital no lado direito do seu tablet.</string>
+    <!-- DerpQuest Settings strings -->
+    <string name="derp_settings_title">DerpQuest</string>
+    <string name="derp_settings_summary">Na crônica nós confiamos...</string>
+    <string name="derp_extras_qs_title">Configurações Rápidas</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
+    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha correto é inserido</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Cor da luz</string>
+    <string name="custom_light_on_time_title">Tempo de luz ativa durante o pulso de LED (ms)</string>
+    <string name="custom_light_off_time_title">Tempo de luz desligada durante o pulso de LED (ms)</string>
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">Toque para mostrar as informações</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">Toque de chamada - SIM 1</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">Toque de chamada - SIM 2</string>
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Vibrar ao carregar</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">Tempo mínimo entre sons de notificação</string>
+    <string name="app_notification_sound_timeout_summary_template">Permitir sons ou vibrações não mais do que uma vez a cada <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">Nenhuma restrição</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 segundos</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 segundos</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 minuto</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 minutos</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 minutos</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 minutos</string>
+    <!-- Disable dashboards conditions and suggestions -->
+    <string name="dashboard_conditions_title">Painel de status</string>
+    <string name="summary_dashboard_conditions_enabled">Painel de status está ativado</string>
+    <string name="summary_dashboard_conditions_disabled">Painel de status está desativado</string>
+    <string name="dashboard_suggestions_title">Painel de Sugestões</string>
+    <string name="summary_dashboard_suggestions_enabled">Painel de sugestões está ativado</string>
+    <string name="summary_dashboard_suggestions_disabled">Painel de sugestões está desativado</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">Aplicativos em tela cheia</string>
+    <string name="display_cutout_force_fullscreen_summary">Forçar aplicativos a ignorar o Espaço do notch</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Unir volumes de toque &amp; e notificações</string>
+    <!-- Dismiss notifications with back FP swipe -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Deslize a digital para a esquerda ou direita para dispensar as notificações</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Para descartar suas notificações, deslize para esquerda ou direita no sensor de impressões digitais na parte de trás do seu telefone.</string>
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">Pular faixas de música</string>
+    <string name="volume_skiptrack_title">Usar os botões do volume para pular musicas</string>
+    <string name="volume_skiptrack_summary">Pressione e segure o botão de volume para pular as músicas ao reproduzir música, mesmo remotamente na TV ou PC com e.. Spotify (app deve ser executado no telefone e mostrar a notificação).</string>
+    <string name="ambient_wake_gestures_title">Gestos de despertar tela ambiente</string>
+    <string name="ambient_wake_gestures_summary">Mostrar a tela de ambiente em vez da tela de bloqueio ao usar gestor de ativar a tela</string>
+    <string name="pulse_on_new_tracks_title">Marcador de música ambiente</string>
+    <string name="pulse_on_new_tracks_summary">Mostrar a tela ambiente quando uma nova música for tocada. Toque duas vezes na informação da música para pular para a próxima faixa.</string>
+    <string name="ambient_ticker_footer">O Ambient Music Ticker mostra informações da música sendo reproduzida na tela de bloqueio e na tela de ambiente.\n\nÉ acionado também se a tela ambiente está desativada quando uma nova faixa é iniciada, forçando uma tela ambiente limpa com as informações da faixa no meio da tela.\n\nVocê também pode clicar duas vezes na informação da faixa para pular para a próxima faixa.\n\nSe você possui um Pixel (geração e superior) e ativar \"Tocando Agora\" e suas notificações nas configurações de áudio do sistema O marcador de Música Ambiente também funcionará com ele.</string>
+    <string name="back_height_low_label">Cheio</string>
+    <string name="back_height_high_label">Inferior</string>
+    <string name="back_options_dialog_title">Opções</string>
+    <string name="back_height_message">Quantidade de altura da tela usada como região sensível para o gesto de voltar.</string>
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">Sempre ligado durante o carregamento</string>
+    <string name="doze_on_charge_summary">Mostrar tela ambiente o tempo todo ao carregar</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Plataforma</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total de RAM</string>
+    <!-- Changelog -->
+    <string name="changelog_title">Alterações</string>
+    <string name="changelog_summary">Desde a última atualização</string>
+    <string name="changelog_error">Não foi possível carregar a lista de alterações</string>
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Aumentando volume do toque</string>
+    <string name="increasing_ring_min_volume_title">Volume inicial</string>
+    <string name="increasing_ring_ramp_up_time_title">Intervalo de aumento</string>
+    <!-- SELinux Status -->
+    <string name="selinux_status">Status do SELinux</string>
+    <string name="selinux_status_disabled">Desativado</string>
+    <string name="selinux_status_permissive">Permissivo</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Mostrar uma seta animada para o gesto de voltar.</string>
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">Toque duplo</string>
+    <string name="doze_double_tap_title">Toque duas vezes para ver a tela ambiente</string>
+    <string name="doze_double_tap_summary">Ver as notificações ao tocar duas vezes na tela</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">Hostname do dispositivo</string>
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">Ocultar a pílula da barra de navegação para gestos inteiros ininterruptos.</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem este dispositivo\u2019s conexões VPN para conectividade a montante</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Processos de fundo</string>
+    <!-- IME block back -->
+    <string name="back_block_ime_title">Bloquear a altura do teclado virtual como região sensível para voltar</string>
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">Sons do screenshot</string>
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">Ativar vibração ao usar os gestos.</string>
+    <!-- Clamp min brightness -->
+    <string name="auto_brightness_min_title">Nível de brilho mínimo</string>
+    <string name="auto_brightness_description_new">O brilho de sua tela será ajustado automaticamente ao seu ambiente e às suas atividades.\n\nVocê pode ajustar um nível mínimo de brilho que será usado.</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">Mostrar histórico de notificações</string>
+</resources>
