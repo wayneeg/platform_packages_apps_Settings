@@ -83,7 +83,7 @@
     <string name="custom_light_off_time_title">Παύση φωτισμού σε παλμό led (ms)</string>
     <string name="custom_light_on_time_title">Ενεργοποίηση  φωτισμού σε παλμό led (ms)</string>
     <string name="custom_light_title">Χρώμα LED</string>
-	
+
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Αγγίξτε για πληροφορίες</string>
 
@@ -146,7 +146,7 @@
     <!-- Doze on charge -->
     <string name="doze_on_charge_summary">Εμφάνιση τροφοδοσίας όσο φορτίζει</string>
 	<string name="doze_on_charge_title">Πάντα ανοιχτό κατά τη φόρτιση</string>
-	
+
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Πλατφόρμα</string>
@@ -205,7 +205,7 @@
 
     <!-- Notification log -->
     <string name="notification_log_summary">Εμφάνιση αναφοράς ιστορικού ειδοποιήσεων</string>
-	
+
 	<!-- DerpFest settings -->
 	<string name="action_entry_custom_action">Επιλογή άλλης ενέργειας</string>
     <string name="action_entry_default_action">Προεπιλογές</string>
@@ -827,6 +827,4 @@
     <string name="wifi_state_unknown">Άγνωστο</string>
     <string name="wifi_status_test">Κατάσταση Wi-Fi</string>
 	<string name="wifi_update">Ανανέωση στατιστικών</string>
-	<string name="sound_amplifier_service_name">Ενισχυτής ήχου</string>
-    <string name="sound_amplifier_summary">Χρησιμοποιήστε ακουστικά για να βελτιώσετε τον ήχο</string>
 </resources>
