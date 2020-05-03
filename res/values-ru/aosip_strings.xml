@@ -195,5 +195,34 @@
 
     <!-- Enable/Disable Screenshot sound -->
     <string name="screenshot_sound_title">Звук при создании скриншота</string>
+    
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">Включить вибрацию при жесте назад.</string>
+
+    <!-- Clamp min brightness -->
+    <string name="auto_brightness_min_title">Минимальный уровень яркости</string>
+    <string name="auto_brightness_description_new">Яркость экрана автоматически подстраивается под вашу среду и действия. Вы можете настроить минимальный уровень яркости, который будет использоваться.</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">Показывать историю увидомлений</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Сотовые данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование сотовых данных</string>
+    <string name="data_usage_app_restrict_vpn">VPN Данные</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование VPN данных</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данные</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование  Wi\u2011Fi данных</string>
+
+    <!-- Display cutout options -->
+    <string name="cutout_main">Настройки выреза в экране</string>
+    <string name="cutout_main_keywords">Показывать вырез, вырез, скрыть вырез, скрыто</string>
+    <string name="cutout_main_summary">Оно действительно уберает вырез</string>
+    <string name="display_cutout_style_title">Стил выреза</string>
+    <string name="display_cutout_style_normal">Нормальный</string>
+    <string name="display_cutout_style_immerse">Адаптивный</string>
+    <string name="display_cutout_style_hide">Скрытый</string>
+    <string name="stock_statusbar_in_hide">Стоковая высота статусбара</string>
+    <string name="stock_statusbar_in_hide_summary">Использовать стоковое значения статусбара в "Скрытый"</string>
 
 </resources>
