@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
      Copyright (C) 2015-2018 AOSiP
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -13,92 +16,70 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- AOSiP Updater -->
-    <string name="update_settings_title">Обновление DerpFest</string>
-    <string name="update_settings_summary">Проверьте последнюю версию DerpFest</string>
+    <string name="update_settings_title">Менеджер обновлений DerpFest</string>
+    <string name="update_settings_summary">Проверить наличие последней версии прошивки</string>
     <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
     <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
-
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">Сброс статистики</string>
+    <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
-
     <!-- AOSiP Version -->
     <string name="aosip_version">Версия DerpFest</string>
-
-    <!-- DerpFest maintainer -->
-    <string name="maintainer">Сопровождающий</string>
-    <!-- <string name="maintainer_name">Alexander Brunswig</string>
-    <string name="maintainer_telegram">https://t.me/DerpFest5T</string> -->
-
     <!-- DerpFest Build types -->
-    <string name="build_type">Build Type</string>
-    <string name="derp_official">Official</string>
+    <string name="build_type">Тип сборки</string>
+    <string name="derp_official">Официальный</string>
     <string name="derp_ci">CI</string>
-    <string name="derp_private">Private</string>
-    <string name="derp_community">Community</string>
-
+    <string name="derp_private">Приватный</string>
+    <string name="derp_community">Сообщество</string>
     <!-- Adb over Network -->
     <string name="adb_over_network">ADB по сети</string>
-    <string name="adb_over_network_summary">Включите отладку TCP / IP через сетевые интерфейсы (сети Wi-Fi, USB). Этот параметр сбрасывается при перезагрузке</string>
-    <string name="adb_over_network_warning">ВНИМАНИЕ: Когда ADB по сети включен, ваш телефон открыт для вторжений во все подключенные сети, включая сеть передачи данных GSM! Только используйте эту функцию, когда вы подключены к доверенным сетям. Вы действительно хотите включить это функция?</string>
+    <string name="adb_over_network_summary">Включить TCP/IP отладку через сетевые интерфейсы (Wi-Fi, USB сети). Эта настройка сбрасывается при перезагрузке</string>
+    <string name="adb_over_network_warning">ВНИМАНИЕ: Когда включена отладка по сети, телефон открыт для несанкционированного доступа во всех подключенных сетях, включая сеть передачи данных GSM!\n\nИспользуйте эту функцию только при подключении к доверенным сетям.\n\nВы действительно хотите включить эту функцию?</string>
     <string name="adb_over_network_warning_title">Разрешить ADB по сети?</string>
-
+    <string name="usb_enable_diagnostics">Включить диагностику USB</string>
+    <string name="usb_enable_diagnostics_summary">Ввести устройство в режим диагностики USB</string>
     <!-- Density category -->
-    <string name="density_category">Варианты плотности</string>
-
+    <string name="density_category">Настройки плотности</string>
     <!-- Device Parts -->
-    <string name="device_part_title">Особенности устройства</string>
+    <string name="device_part_title">Возможности устройства</string>
     <string name="device_part_summary">Специфичные особенности устройства</string>
-
     <string name="battery_temp">Температура батареи</string>
-
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
-
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите датчик отпечатков пальцев на передней панели телефона.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите датчик отпечатков пальцев на левой стороне вашего телефона.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите датчик отпечатков пальцев на правой стороне вашего телефона.</string>
-
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите датчик отпечатков пальцев на левой части телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите датчик отпечатков пальцев на правой части вашего телефона.</string>
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите датчик отпечатков пальцев на передней панели вашего устройства.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите датчик отпечатков пальцев на левой стороне вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите датчик отпечатков пальцев на передней панели устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите датчик отпечатков пальцев на левой стороне устройства.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Найдите датчик отпечатков пальцев на правой стороне вашего устройства.</string>
-
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите датчик отпечатков пальцев на передней панели планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите датчик отпечатков пальцев на передней панели вашего планшета.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите датчик отпечатков пальцев на левой стороне планшета.</string>
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой стороне планшета.</string>
-
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
-    <string name="derp_settings_summary">In Kronic we trust...</string>
+    <string name="derp_settings_summary">В Кроника мы верим...</string>
     <string name="derp_extras_qs_title">Быстрые настройки</string>
-
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного PIN / пароля</string>
-
+    <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного PIN-кода/пароля</string>
     <!-- Custom light color -->
-    <string name="custom_light_title">Светлый цвет</string>
-    <string name="custom_light_on_time_title">Время включения света во время светодиодного импульса (ms)</string>
-    <string name="custom_light_off_time_title">Время выключения света во время светодиодного импульса (ms)"</string>
-
+    <string name="custom_light_title">Цвет светодиода</string>
+    <string name="custom_light_on_time_title">Время свечения светодиода (мс)</string>
+    <string name="custom_light_off_time_title">Длительность затухания светодиода (мс)</string>
     <!-- String for removal of sensitive info on about, depending on tap -->
     <string name="device_info_protected_single_press">Нажмите, чтобы показать информацию</string>
-
     <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Мелодия телефона - SIM 1</string>
-
+    <string name="ringtone1_title">Рингтон телефона - SIM 1</string>
     <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Мелодия телефона - SIM 2</string>
-
+    <string name="ringtone2_title">Рингтон телефона - SIM 2</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">Вибрация при зарядке</string>
-
     <!-- Notification sound timeout -->
-    <string name="app_notification_sound_timeout_title">Минимальное время между звуками уведомлений</string>
-    <string name="app_notification_sound_timeout_summary_template">Разрешить звуки или вибрации не более одного раза <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_title">Минимальный интервал между звуками уведомлений</string>
+    <string name="app_notification_sound_timeout_summary_template">Разрешить звуки или вибрацию не чаще чем раз в <xliff:g id="duration">%1$s</xliff:g></string>
     <string name="app_notification_sound_timeout_value_none">Без ограничений</string>
     <string name="app_notification_sound_timeout_value_10_seconds">10 секунд</string>
     <string name="app_notification_sound_timeout_value_30_seconds">30 секунд</string>
@@ -106,123 +87,98 @@
     <string name="app_notification_sound_timeout_value_5_minutes">5 минут</string>
     <string name="app_notification_sound_timeout_value_15_minutes">10 минут</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 минут</string>
-
     <!-- Disable dashboards conditions and suggestions -->
-    <string name="dashboard_conditions_title">Состояние дополниельной панели уведомлений</string>
-    <string name="summary_dashboard_conditions_enabled">Дополниельная панель уведомлений включена</string>
-    <string name="summary_dashboard_conditions_disabled">Дополниельная панель уведомлений отключена</string>
-    <string name="dashboard_suggestions_title">Подсказки на панеле уведомлений</string>
-    <string name="summary_dashboard_suggestions_enabled">Подсказки включены</string>
-    <string name="summary_dashboard_suggestions_disabled">Подсказки отключены</string>
-
+    <string name="dashboard_conditions_title">Состояние панели уведомлений</string>
+    <string name="summary_dashboard_conditions_enabled">Отображение панели уведомлений включено</string>
+    <string name="summary_dashboard_conditions_disabled">Отображение панели уведомлений выключено</string>
+    <string name="dashboard_suggestions_title">Подсказки в меню настроек</string>
+    <string name="summary_dashboard_suggestions_enabled">Подсказки в меню настроек включены</string>
+    <string name="summary_dashboard_suggestions_disabled">Подсказки в меню настроек выключены</string>
     <!-- Notch: Full screen apps -->
-    <string name="display_cutout_force_fullscreen_title">Приложения работающие на полный экран</string>
-    <string name="display_cutout_force_fullscreen_summary">Заставить приложения игнорировать отсупы экрана</string>
-
+    <string name="display_cutout_force_fullscreen_title">Полноэкранные приложения</string>
+    <string name="display_cutout_force_fullscreen_summary">Принудительное игнорирование выреза приложениями</string>
     <!-- Volume link notification -->
-    <string name="volume_link_notification_title">Связать громкости рингтона &amp; и уведомлений</string>
-
+    <string name="volume_link_notification_title">Объединить громкость рингтона и уведомлений</string>
     <!-- Dismiss notifications with back FP swipe -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Проведите отпечатком пальца влево или вправо, чтобы отклонить уведомления</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы отклонить уведомления, проведите пальцем влево или вправо по датчику отпечатков пальцев на задней панели телефона.</string>
-
+    <string name="fp_swipe_to_dismiss_notifications_title">Проведите пальцем по отпечатку пальца влево или вправо, чтобы удалить уведомления</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы очистить ваши уведомления, проведите пальцем влево или вправо по сканеру отпечатка пальца.</string>
     <!-- Volume rocker gestures -->
-    <string name="volume_skiptrack_screen_title">Пропустить музыкальные треки</string>
-    <string name="volume_skiptrack_title">Управлять треками с помощью кнопок громкости</string>
-    <string name="volume_skiptrack_summary">Длительно нажмите кнопку регулировки громкости, чтобы пропустить дорожки при воспроизведении музыки, даже удаленно на телевизоре или ПК, например, с помощью. Spotify (приложение должно работать на телефоне и показывать уведомление).</string>
-
-    <string name="ambient_wake_gestures_title">Жесты Ambient</string>
-    <string name="ambient_wake_gestures_summary">Показывать Ambient Display вместо обычного экрана блокировки при пробуждении</string>
-
-    <string name="pulse_on_new_tracks_title">Ambient бегущая строка трека</string>
-    <string name="pulse_on_new_tracks_summary">Показать Ambient Отображение при воспроизведении новой музыкальной дорожки. Дважды нажмите на информацию о дорожке, чтобы перейти к следующей дорожке.</string>
-    <string name="ambient_ticker_footer">Окно Ambient Music Ticker отображает информацию о воспроизводимой музыкальной дорожке на экране блокировки и окружающем экране. Это также срабатывает, если Ambient Display отключается при запуске новой дорожки, заставляя чистый окружающий экран с информацией о дорожке в середине экран. Вы также можете дважды нажать на информацию о дорожке, чтобы перейти к следующей дорожке. Если у вас есть пиксель (2-го поколения и выше) и включите \ "Now Playing \" и его уведомление в настройках аудио системы. , Ambient Music Ticker также будет работать в нем.</string>
-
-    <string name="back_height_low_label">Полностью</string>
-    <string name="back_height_high_label">По нижнему краю</string>
-    <string name="back_options_dialog_title">Параметры</string>
-    <string name="back_height_message">Выбор зоны экрана, используемой в качестве сенсорной области для жеста</string>
-
+    <string name="volume_skiptrack_screen_title">Пропускать музыкальные треки</string>
+    <string name="volume_skiptrack_title">Пропускать треки кнопками громкости</string>
+    <string name="volume_skiptrack_summary">Длительное нажатие кнопки громкости для пропуска треков при воспроизведении музыки, даже удаленно на TV или ПК с, например, Spotify (приложение должно работать на телефоне и показывать уведомления).</string>
+    <string name="ambient_wake_gestures_title">Жесты пробуждения спящего режима</string>
+    <string name="ambient_wake_gestures_summary">Показывать Ambient Display вместо обычного экрана блокировки при пробуждении жестами</string>
+    <string name="pulse_on_new_tracks_title">Ambient Music Ticker</string>
+    <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении новой музыки. Дважды нажмите на информацию о треке, чтобы перейти к следующему треку.</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker отображает информацию о текущем треке используя «Ambient Display»\n\nСрабатывает также, если «Ambient Display» отключен при проигрывании нового трека, принудительно очищает экран и показывает информацию о треке посередине экрана.\n\nВы также можете дважды нажать по названию трека для перехода на следующий трек.\n\nЕсли вы используете Pixel (2-го поколения и выше) и включите \"Сейчас играет\" и его уведомление в настройках системы, Ambient Music Ticker также будет работать в нём.</string>
+    <string name="back_height_low_label">Полный</string>
+    <string name="back_height_high_label">По нижней части</string>
+    <string name="back_options_dialog_title">Настройки</string>
+    <string name="back_height_message">Область экрана, используемая в качестве сенсорной области для жеста назад.</string>
     <!-- Doze on charge -->
-    <string name="doze_on_charge_title">Всегда включен при зарядке</string>
-    <string name="doze_on_charge_summary">Показывать экран все время при зарядке</string>
-
+    <string name="doze_on_charge_title">Всегда включать при зарядке</string>
+    <string name="doze_on_charge_summary">Показывать Doze-экран все время при зарядке</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">Платформа</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">Объем RAM</string>
-
+    <string name="total_ram">Всего ОЗУ</string>
     <!-- Changelog -->
     <string name="changelog_title">Список изменений</string>
     <string name="changelog_summary">С момента последнего обновления</string>
-    <string name="changelog_error">Невозможно загрузить список изменений</string>
-
+    <string name="changelog_error">Не удается загрузить список изменений</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Возрастающая громкость звонка</string>
+    <string name="increasing_ring_volume_option_title">Увеличение громкости звонка</string>
     <string name="increasing_ring_min_volume_title">Начальная громкость</string>
-    <string name="increasing_ring_ramp_up_time_title">Время увеличения</string>
-
+    <string name="increasing_ring_ramp_up_time_title">Время повышения громкости</string>
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux status</string>
-    <string name="selinux_status_disabled">Отключено</string>
+    <string name="selinux_status">Режим SELinux</string>
+    <string name="selinux_status_disabled">Disabled (отключено)</string>
     <string name="selinux_status_permissive">Permissive (разрешающий)</string>
     <string name="selinux_status_enforcing">Enforcing (принудительный)</string>
-
     <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Показать анимированную стрелку для жеста назад.</string>
-
+    <string name="back_gesture_arrow_message">Показывать анимированную стрелку для жеста назад.</string>
     <!-- Doze on double tap -->
     <string name="double_tap_title">Двойное нажатие</string>
-    <string name="doze_double_tap_title">Дважды нажмите, чтобы проверить телефон</string>
-    <string name="doze_double_tap_summary">Импульсные уведомления двойным нажатием</string>
-
+    <string name="doze_double_tap_title">Двойное нажатие для пробуждения телефона</string>
+    <string name="doze_double_tap_summary">Показывать уведомления по двойному нажатию</string>
     <!-- Hostname setting -->
     <string name="device_hostname">Имя хоста устройства</string>
-
     <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Скройте панель навигации для полноэкранных жестов.</string>
-
+    <string name="gesture_pill_message">Скрыть нижнюю панель навигации для полноэкранных жестов.</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Разрешить клиентам точки доступа использовать VPN-подключения этого устройства для восходящего подключения</string>
-
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить подключенным клиентам использовать\u2019sVPN для исходящих подключений</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
-
     <!-- IME block back -->
-    <string name="back_block_ime_title">Высота блока виртуальной клавиатуры как сенсорная область для жеста назад</string>
-
+    <string name="back_block_ime_title">Не использовать высоту виртуальной клавиатуры в качестве сенсорной области для жеста \"Назад\".</string>
     <!-- Enable/Disable Screenshot sound -->
-    <string name="screenshot_sound_title">Звук при создании скриншота</string>
-    
+    <string name="screenshot_sound_title">Звуки скриншота</string>
     <!-- Back gesture vibration -->
-    <string name="back_gesture_haptic_message">Включить вибрацию при жесте назад.</string>
-
+    <string name="back_gesture_haptic_message">Включить виброотклик для жеста назад.</string>
     <!-- Clamp min brightness -->
     <string name="auto_brightness_min_title">Минимальный уровень яркости</string>
-    <string name="auto_brightness_description_new">Яркость экрана автоматически подстраивается под вашу среду и действия. Вы можете настроить минимальный уровень яркости, который будет использоваться.</string>
-
+    <string name="auto_brightness_description_new">Яркость экрана будет автоматически регулироваться в вашей среде и активности.\n\nВы можете настроить минимальный уровень яркости, который будет использоваться.</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Показывать историю увидомлений</string>
-
+    <string name="notification_log_summary">Показать журнал уведомлений</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">Сотовые данные</string>
-    <string name="data_usage_app_restrict_data_summary">Включить использование сотовых данных</string>
-    <string name="data_usage_app_restrict_vpn">VPN Данные</string>
-    <string name="data_usage_app_restrict_vpn_summary">Включить использование VPN данных</string>
-    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi данные</string>
-    <string name="data_usage_app_restrict_wifi_summary">Включить использование  Wi\u2011Fi данных</string>
-
+    <string name="data_usage_app_restrict_data">Мобильные данные</string>
+    <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
+    <string name="data_usage_app_restrict_vpn">Данные VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
+    <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
     <!-- Display cutout options -->
     <string name="cutout_main">Настройки выреза в экране</string>
-    <string name="cutout_main_keywords">Показывать вырез, вырез, скрыть вырез, скрыто</string>
-    <string name="cutout_main_summary">Оно действительно уберает вырез</string>
-    <string name="display_cutout_style_title">Стил выреза</string>
-    <string name="display_cutout_style_normal">Нормальный</string>
+    <string name="cutout_main_keywords">отображение выреза, челки, скрытие выреза</string>
+    <string name="cutout_main_summary">Оно действительно убирает вырез</string>
+    <string name="display_cutout_style_title">Стиль выреза</string>
+    <string name="display_cutout_style_normal">Обычный</string>
     <string name="display_cutout_style_immerse">Адаптивный</string>
     <string name="display_cutout_style_hide">Скрытый</string>
-    <string name="stock_statusbar_in_hide">Стоковая высота статусбара</string>
-    <string name="stock_statusbar_in_hide_summary">Использовать стоковое значения статусбара в "Скрытый"</string>
-
+    <string name="stock_statusbar_in_hide">Высота строки состояния</string>
+    <string name="stock_statusbar_in_hide_summary">Использовать скрытое значение строки состояния по умолчанию</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">Выберите размер узора</string>
 </resources>
