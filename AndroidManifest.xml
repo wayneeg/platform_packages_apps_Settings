@@ -3382,5 +3382,11 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                        android:value="com.android.settings.security.LockscreenDashboardFragment"/>
         </activity>
+
+        <receiver android:name="com.derpquest.settings.utils.OnBoot">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+            </intent-filter>
+        </receiver>
     </application>
 </manifest>
