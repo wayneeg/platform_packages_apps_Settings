@@ -148,7 +148,7 @@
     <string name="gesture_pill_message">Скрыть нижнюю панель навигации для полноэкранных жестов.</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Разрешить клиентам использовать VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">Разрешить подключенным клиентам использовать\u2019sVPN для исходящих подключений</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Разрешить подключенным клиентам использовать VPN для исходящих подключений</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">Фоновые процессы</string>
     <!-- IME block back -->
@@ -169,16 +169,6 @@
     <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
     <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
-    <!-- Display cutout options -->
-    <string name="cutout_main">Настройки выреза в экране</string>
-    <string name="cutout_main_keywords">отображение выреза, челки, скрытие выреза</string>
-    <string name="cutout_main_summary">Оно действительно убирает вырез</string>
-    <string name="display_cutout_style_title">Стиль выреза</string>
-    <string name="display_cutout_style_normal">Обычный</string>
-    <string name="display_cutout_style_immerse">Адаптивный</string>
-    <string name="display_cutout_style_hide">Скрытый</string>
-    <string name="stock_statusbar_in_hide">Высота строки состояния</string>
-    <string name="stock_statusbar_in_hide_summary">Использовать скрытое значение строки состояния по умолчанию</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Выберите размер узора</string>
 </resources>
