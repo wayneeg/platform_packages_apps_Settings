@@ -118,6 +118,15 @@
         settings:controller="com.android.settings.notification.VibrateWhenRingPreferenceController"
         android:order="-130"/>
 
+    <!-- Ringtone vibration pattern -->
+    <ListPreference
+        android:key="vibration_pattern"
+        android:title="@string/vibration_pattern_title"
+        android:order="-125"
+        android:entries="@array/vibration_pattern_entries"
+        android:entryValues="@array/vibration_pattern_values"
+        android:dependency="vibrate_when_ringing"/>
+
     <!-- Interruptions -->
     <com.android.settingslib.RestrictedPreference
         android:key="zen_mode"
