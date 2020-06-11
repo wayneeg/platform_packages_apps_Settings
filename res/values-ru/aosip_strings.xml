@@ -18,8 +18,6 @@
     <!-- AOSiP Updater -->
     <string name="update_settings_title">Менеджер обновлений DerpFest</string>
     <string name="update_settings_summary">Проверить наличие последней версии прошивки</string>
-    <string name="update_package" translatable="false">eu.chainfire.opendelta</string>
-    <string name="update_activity" translatable="false">eu.chainfire.opendelta.MainActivity</string>
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Сбросить статистику</string>
     <string name="battery_stats_message">Статистика батареи будет сброшена</string>
@@ -169,6 +167,31 @@
     <string name="data_usage_app_restrict_vpn_summary">Включить использование данных VPN</string>
     <string name="data_usage_app_restrict_wifi">Данные Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Включить использование данных Wi\u2011Fi</string>
+    <!-- Display cutout options -->
+    <string name="cutout_main">Настройки выреза в экране</string>
+    <string name="cutout_main_keywords">отображение выреза, челки, скрытие выреза</string>
+    <string name="cutout_main_summary">Оно действительно убирает вырез</string>
+    <string name="display_cutout_style_title">Стиль выреза</string>
+    <string name="display_cutout_style_normal">Обычный</string>
+    <string name="display_cutout_style_immerse">Адаптивный</string>
+    <string name="display_cutout_style_hide">Скрытый</string>
+    <string name="stock_statusbar_in_hide">Высота строки состояния</string>
+    <string name="stock_statusbar_in_hide_summary">Использовать скрытое значение строки состояния по умолчанию</string>
     <!-- Lock screen pattern size -->
     <string name="lock_settings_picker_pattern_size_message">Выберите размер узора</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">Частота обновления экрана</string>
+    <string name="refresh_rate_summary_auto">Авто / Автоматически повышает скорость обновления от 60 до 120 Гц за некоторое содержимое</string>
+    <string name="refresh_rate_summary_60">60 Гц / Частота обновления заблокирована на 60 Гц для всего содержимого</string>
+    <string name="refresh_rate_summary_120">120 Гц / Частота обновления заблокирована на 120 Гц для всего содержимого за счёт повышенного энергопотребления</string>
+    <string name="auto_refresh_rate">Автоматически</string>
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">Шаблон вибрации звонка</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">Пользовательский</string>
+    <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
 </resources>
