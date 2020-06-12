@@ -30,7 +30,7 @@
 
     <!-- DerpFest maintainer -->
     <string name="maintainer">मेंटेनर</string>
-    
+
 
     <!-- DerpFest Build types -->
     <string name="build_type">बिल्ड प्रकार</string>
@@ -74,7 +74,6 @@
 
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">डर्पक्वेस्ट</string>
-    <string name="derp_settings_summary">क्रोनिक में हमें भरोसा है ...</string>
     <string name="derp_extras_qs_title">त्वरित सेटिंग्स</string>
 
     <!-- Quick unlock -->

@@ -47,7 +47,6 @@
 
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
-    <string name="derp_settings_summary">In Kronic we trust...</string>
     <string name="derp_extras_qs_title">Schnelleinstellungen</string>
 
     <!-- Quick unlock -->

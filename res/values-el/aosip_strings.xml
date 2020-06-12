@@ -71,7 +71,6 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Βρείτε το σένσορα αποτυπωμάτων, δεξιά στο τηλέφωνό σας.</string>
 
     <!-- DerpQuest Settings strings -->
-    <string name="derp_settings_summary">Εμφάνιση ειδικών επιλογών</string>
     <string name="derp_settings_title">Ειδικές ρυθμίσεις Derp</string>
     <string name="derp_extras_qs_title">Γρήγορες ρυθμίσεις</string>
 

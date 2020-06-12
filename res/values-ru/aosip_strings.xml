@@ -58,7 +58,6 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой стороне планшета.</string>
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
-    <string name="derp_settings_summary">В Кроника мы верим...</string>
     <string name="derp_extras_qs_title">Быстрые настройки</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
