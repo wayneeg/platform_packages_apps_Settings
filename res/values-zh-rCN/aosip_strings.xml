@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015-2018 AOSiP
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- AOSiP Updater -->
+    <string name="update_settings_title">DerpFest系统更新</string>
+    <string name="update_settings_summary">检查最新版本的ROM</string>
+
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重置状态</string>
+    <string name="battery_stats_message">电池历史状态将被重置</string>
+
+    <!-- AOSiP Version -->
+    <string name="aosip_version">DerpFest版本</string>
+
+    <!-- DerpFest Build types -->
+    <string name="build_type">编译类型</string>
+    <string name="derp_official">官方</string>
+    <string name="derp_ci">CI</string>
+    <string name="derp_private">私人</string>
+    <string name="derp_community">社区</string>
+
+    <!-- Adb over Network -->
+    <string name="adb_over_network">网络ADB调试</string>
+    <string name="adb_over_network_summary">通过网络接口（Wi-Fi，USB网络）启用TCP/IP ADB 调试。 重新启动时重置此设置</string>
+    <string name="adb_over_network_warning">警告：启用网络ADB时，您的手机将对所有连接的网络（包括移动数据）进行入侵！\n\n仅在连接到受信任的网络时才使用此功能。\n\n您真的要启用此功能吗？</string>
+    <string name="adb_over_network_warning_title">允许来自网络的ADB调试?</string>
+    <string name="usb_enable_diagnostics">启用USB诊断</string>
+    <string name="usb_enable_diagnostics_summary">将设备置于USB诊断模式</string>
+
+    <!-- Density category -->
+    <string name="density_category">显示选项</string>
+
+    <!-- Device Parts -->
+    <string name="device_part_title">设备功能</string>
+    <string name="device_part_summary">设备特有的功能</string>
+
+    <string name="battery_temp">电池温度</string>
+
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Google Play</string>
+
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">找到手机正面的指纹传感器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">找到手机左面的指纹传感器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">找到手机右面的指纹传感器</string>
+
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">找到手机正面的指纹传感器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">找到手机左面的指纹传感器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">找到手机右面的指纹传感器</string>
+
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">找到手机正面的指纹传感器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">找到手机左面的指纹传感器</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">找到手机右面的指纹传感器</string>
+
+    <!-- DerpQuest Settings strings -->
+    <string name="derp_settings_title">DerpFest设置</string>
+    <string name="derp_settings_summary">In Kronic we trust...</string>
+    <string name="derp_extras_qs_title">快速设置</string>
+
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的PIN/密码后自动解锁</string>
+
+    <!-- Custom light color -->
+    <string name="custom_light_title">颜色</string>
+    <string name="custom_light_on_time_title">LED脉冲期间的开灯时间 (ms)</string>
+    <string name="custom_light_off_time_title">LED脉冲期间的熄灯时间 (ms)"</string>
+
+    <!-- String for removal of sensitive info on about, depending on tap -->
+    <string name="device_info_protected_single_press">轻触以显示信息</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">手机铃声 - SIM 1</string>
+
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">手机铃声 - SIM 2</string>
+
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">充电振动</string>
+
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">通知铃声间隔的最短时间</string>
+    <string name="app_notification_sound_timeout_summary_template">每次允许声音或振动不超过 <xliff:g id="duration">%1$s</xliff:g> 一次</string>
+    <string name="app_notification_sound_timeout_value_none">没有限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分</string>
+
+    <!-- Disable dashboards conditions and suggestions -->
+    <string name="dashboard_conditions_title">仪表板条件</string>
+    <string name="summary_dashboard_conditions_enabled">仪表板条件已开启</string>
+    <string name="summary_dashboard_conditions_disabled">仪表板条件已关闭</string>
+    <string name="dashboard_suggestions_title">仪表板建议</string>
+    <string name="summary_dashboard_suggestions_enabled">仪表板建议已开启</string>
+    <string name="summary_dashboard_suggestions_disabled">已关闭</string>
+
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全屏应用</string>
+    <string name="display_cutout_force_fullscreen_summary">强制应用忽略刘海全屏显示</string>
+
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">通知音量 &amp;</string>
+
+    <!-- Dismiss notifications with back FP swipe -->
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑动指纹可关闭通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要关闭通知，请向左或向右滑动手机背面的指纹传感器</string>
+
+    <!-- Volume rocker gestures -->
+    <string name="volume_skiptrack_screen_title">跳过音乐曲目</string>
+    <string name="volume_skiptrack_title">音量键跳过曲目</string>
+    <string name="volume_skiptrack_summary">长按音量键可在播放音乐时跳过曲目，甚至可以在电视或PC上远程播放音乐，例如 Spotify（应用程序必须在手机上运行并显示通知）。</string>
+
+    <string name="ambient_wake_gestures_title">环境唤醒手势</string>
+    <string name="ambient_wake_gestures_summary">在唤醒手势时显示环境显示，而不是普通锁屏</string>
+
+    <string name="pulse_on_new_tracks_title">环境音乐置顶</string>
+    <string name="pulse_on_new_tracks_summary">播放新的音乐曲目时显示环境显示。 双击曲目信息可跳至下一首曲目。</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker在锁定屏幕和环境屏幕上显示正在播放的音乐曲目信息。 \n\n如果在启动新曲目时禁用了Ambient Display，也会触发此操作，从而强制在屏幕中间显示带有曲目信息的干净的环境屏幕 屏幕。 \n\n您还可以双击曲目信息以跳到下一首曲目。 \n\n如果您拥有Pixel（第二代及更高版本）并在系统音频设置中启用“正在播放”及其通知，Ambient Music Ticker也可以在其中使用。</string>
+
+    <string name="back_height_low_label">全</string>
+    <string name="back_height_high_label">底部</string>
+    <string name="back_options_dialog_title">选项</string>
+    <string name="back_height_message">屏幕高度用作后手势的可触摸区域</string>
+
+    <!-- Doze on charge -->
+    <string name="doze_on_charge_title">充电时始终开启</string>
+    <string name="doze_on_charge_summary">充电时始终显示Doze屏幕</string>
+
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">平台</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">总RAM大小</string>
+
+    <!-- Changelog -->
+    <string name="changelog_title">更新日志</string>
+    <string name="changelog_summary">自上次更新以来</string>
+    <string name="changelog_error">无法加载更新日志</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">增大铃声音量</string>
+    <string name="increasing_ring_min_volume_title">开始音量</string>
+    <string name="increasing_ring_ramp_up_time_title">增大时间</string>
+
+    <!-- SELinux Status -->
+    <string name="selinux_status">SELinux状态</string>
+    <string name="selinux_status_disabled">关闭</string>
+    <string name="selinux_status_permissive">宽容</string>
+    <string name="selinux_status_enforcing">强制</string>
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">显示后退手势的动画箭头</string>
+
+    <!-- Doze on double tap -->
+    <string name="double_tap_title">双击</string>
+    <string name="doze_double_tap_title">双击以查看设备</string>
+    <string name="doze_double_tap_summary">双击通知以查看</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">设备主机名</string>
+
+    <!-- NavigationBar Gestural Mode Tweaks -->
+    <string name="gesture_pill_message">隐藏导航栏小药丸</string>
+
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的VPN连接进行连接</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">后台程序</string>
+
+    <!-- IME block back -->
+    <string name="back_block_ime_title">使用虚拟键盘时增加导航栏高度作为手势的可触摸区域</string>
+
+    <!-- Enable/Disable Screenshot sound -->
+    <string name="screenshot_sound_title">截图声音</string>
+
+    <!-- Back gesture vibration -->
+    <string name="back_gesture_haptic_message">开启返回手势的震动</string>
+
+    <!-- Clamp min brightness -->
+    <string name="auto_brightness_min_title">最小亮度</string>
+    <string name="auto_brightness_description_new">屏幕亮度将自动适应您的环境和活动。\n\n您可以调整将要使用的最低亮度水平。</string>
+
+    <!-- Notification log -->
+    <string name="notification_log_summary">显示通知历史记录日志</string>
+
+    <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">移动数据</string>
+    <string name="data_usage_app_restrict_data_summary">启用移动数据的流量使用情况</string>
+    <string name="data_usage_app_restrict_vpn">VPN数据</string>
+    <string name="data_usage_app_restrict_vpn_summary">启用VPN的流量使用情况</string>
+    <string name="data_usage_app_restrict_wifi">WiFi数据</string>
+    <string name="data_usage_app_restrict_wifi_summary">启用WiFi的流量使用情况</string>
+
+    <!-- Display cutout options -->
+    <string name="cutout_main">刘海设置</string>
+    <string name="cutout_main_keywords">显示刘海与其他选项</string>
+    <string name="cutout_main_summary">他们真的跟这个偷工减料</string>
+    <string name="display_cutout_style_title">刘海样式</string>
+    <string name="display_cutout_style_normal">普通</string>
+    <string name="display_cutout_style_immerse">沉浸</string>
+    <string name="display_cutout_style_hide">隐藏</string>
+    <string name="stock_statusbar_in_hide">原状态栏高度</string>
+    <string name="stock_statusbar_in_hide_summary">在“隐藏”中使用默认状态栏高度</string>
+
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">选择图案尺寸</string>
+
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">屏幕刷新率</string>
+    <string name="refresh_rate_summary_auto">自动-自动将某些内容的刷新率从60Hz提高到120Hz</string>
+    <string name="refresh_rate_summary_60">60Hz-所有内容的刷新率均锁定在60Hz</string>
+    <string name="refresh_rate_summary_120">120Hz-所有内容的刷新率均锁定在120Hz且耗电增加</string>
+    <string name="auto_refresh_rate">自动</string>
+
+    <!-- Vibration patterns -->
+    <string name="vibration_pattern_title">铃声振动模式</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="pattern_custom">自定义</string>
+    <string name="custom_vibration_pattern_title">自定义模式</string>
+
+</resources>
