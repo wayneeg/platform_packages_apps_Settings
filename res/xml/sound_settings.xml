@@ -142,7 +142,8 @@
             settings:min="0"
             settings:interval="100"
             settings:units="ms"
-            android:dependency="vibrate_when_ringing"/>
+            android:dependency="vibrate_when_ringing"
+            android:defaultValue="0"/>
 
         <!-- Custom ringtone vibration pattern 2 -->
         <com.derpquest.settings.preferences.CustomSeekBarPreference
@@ -152,7 +153,8 @@
             settings:min="0"
             settings:interval="100"
             settings:units="ms"
-            android:dependency="vibrate_when_ringing"/>
+            android:dependency="vibrate_when_ringing"
+            android:defaultValue="800"/>
 
         <!-- Custom ringtone vibration pattern 3 -->
         <com.derpquest.settings.preferences.CustomSeekBarPreference
@@ -162,7 +164,8 @@
             settings:min="0"
             settings:interval="100"
             settings:units="ms"
-            android:dependency="vibrate_when_ringing"/>
+            android:dependency="vibrate_when_ringing"
+            android:defaultValue="800"/>
 
     </PreferenceCategory>
 
