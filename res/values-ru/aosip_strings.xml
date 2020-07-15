@@ -193,4 +193,6 @@
     <string name="pattern_da_dzzz_da">da-dzzz-da</string>
     <string name="pattern_custom">Пользовательский</string>
     <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Время отключения экрана блокировки</string>
 </resources>
