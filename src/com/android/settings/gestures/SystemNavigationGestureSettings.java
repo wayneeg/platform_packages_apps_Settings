@@ -335,9 +335,13 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
                 break;
             case KEY_SYSTEM_NAV_2BUTTONS:
                 setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_2BUTTON_OVERLAY);
+                Settings.System.putInt(context.getContentResolver(),
+                        Settings.System.GESTURE_PILL_TOGGLE, 0);
                 break;
             case KEY_SYSTEM_NAV_3BUTTONS:
                 setNavBarInteractionMode(overlayManager, NAV_BAR_MODE_3BUTTON_OVERLAY);
+                Settings.System.putInt(context.getContentResolver(),
+                        Settings.System.GESTURE_PILL_TOGGLE, 0);
                 break;
         }
     }
