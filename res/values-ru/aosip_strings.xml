@@ -58,6 +58,7 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите датчик отпечатков пальцев на правой стороне планшета.</string>
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
+    <string name="derp_settings_summary">В Кроника мы верим...</string>
     <string name="derp_extras_qs_title">Быстрые настройки</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
@@ -103,8 +104,6 @@
     <string name="volume_skiptrack_screen_title">Пропускать музыкальные треки</string>
     <string name="volume_skiptrack_title">Пропускать треки кнопками громкости</string>
     <string name="volume_skiptrack_summary">Длительное нажатие кнопки громкости для пропуска треков при воспроизведении музыки, даже удаленно на TV или ПК с, например, Spotify (приложение должно работать на телефоне и показывать уведомления).</string>
-    <string name="ambient_wake_gestures_title">Жесты пробуждения спящего режима</string>
-    <string name="ambient_wake_gestures_summary">Показывать Ambient Display вместо обычного экрана блокировки при пробуждении жестами</string>
     <string name="pulse_on_new_tracks_title">Ambient Music Ticker</string>
     <string name="pulse_on_new_tracks_summary">Показывать Ambient Display при воспроизведении новой музыки. Дважды нажмите на информацию о треке, чтобы перейти к следующему треку.</string>
     <string name="ambient_ticker_footer">Ambient Music Ticker отображает информацию о текущем треке используя «Ambient Display»\n\nСрабатывает также, если «Ambient Display» отключен при проигрывании нового трека, принудительно очищает экран и показывает информацию о треке посередине экрана.\n\nВы также можете дважды нажать по названию трека для перехода на следующий трек.\n\nЕсли вы используете Pixel (2-го поколения и выше) и включите \"Сейчас играет\" и его уведомление в настройках системы, Ambient Music Ticker также будет работать в нём.</string>
@@ -194,5 +193,7 @@
     <string name="pattern_custom">Пользовательский</string>
     <string name="custom_vibration_pattern_title">Пользовательский шаблон</string>
     <!-- Lockscreen timeout -->
-    <string name="lockscreen_timeout_title">Время отключения экрана блокировки</string>
+    <string name="lockscreen_timeout_title">Тайм-аут экрана блокировки</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Сохранённые наушники</string>
 </resources>
