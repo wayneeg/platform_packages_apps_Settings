@@ -34,12 +34,12 @@
     <string name="derp_community">社区</string>
 
     <!-- Adb over Network -->
-    <string name="adb_over_network">网络ADB调试</string>
-    <string name="adb_over_network_summary">通过网络接口（Wi-Fi，USB网络）启用TCP/IP ADB 调试。 重新启动时重置此设置</string>
-    <string name="adb_over_network_warning">警告：启用网络ADB时，您的手机将对所有连接的网络（包括移动数据）进行入侵！\n\n仅在连接到受信任的网络时才使用此功能。\n\n您真的要启用此功能吗？</string>
-    <string name="adb_over_network_warning_title">允许来自网络的ADB调试?</string>
-    <string name="usb_enable_diagnostics">启用USB诊断</string>
-    <string name="usb_enable_diagnostics_summary">将设备置于USB诊断模式</string>
+    <string name="adb_over_network">网络 ADB 调试</string>
+    <string name="adb_over_network_summary">通过网络接口（Wi-Fi，USB 网络）启用 TCP/IP ADB 调试。重新启动时重置此设置</string>
+    <string name="adb_over_network_warning">警告：启用网络 ADB 时，您的手机将对所有连接的网络（包括移动数据）进行入侵！\n\n仅在连接到受信任的网络时才使用此功能。\n\n您真的要启用此功能吗？</string>
+    <string name="adb_over_network_warning_title">允许来自网络的 ADB 调试?</string>
+    <string name="usb_enable_diagnostics">启用 USB 诊断</string>
+    <string name="usb_enable_diagnostics_summary">将设备置于 USB 诊断模式</string>
 
     <!-- Density category -->
     <string name="density_category">显示选项</string>
@@ -69,13 +69,13 @@
     <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">找到手机右面的指纹传感器</string>
 
     <!-- DerpQuest Settings strings -->
-    <string name="derp_settings_title">DerpFest设置</string>
+    <string name="derp_settings_title">DerpFest 设置</string>
     <string name="derp_settings_summary">In Kronic we trust...</string>
     <string name="derp_extras_qs_title">快速设置</string>
 
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
-    <string name="unlock_quick_unlock_control_summary">输入正确的PIN/密码后自动解锁</string>
+    <string name="unlock_quick_unlock_control_summary">输入正确的 PIN 或密码后自动解锁</string>
 
     <!-- Custom light color -->
     <string name="custom_light_title">颜色</string>
@@ -134,7 +134,7 @@
 
     <string name="pulse_on_new_tracks_title">环境音乐置顶</string>
     <string name="pulse_on_new_tracks_summary">播放新的音乐曲目时显示环境显示。 双击曲目信息可跳至下一首曲目。</string>
-    <string name="ambient_ticker_footer">Ambient Music Ticker在锁定屏幕和环境屏幕上显示正在播放的音乐曲目信息。 \n\n如果在启动新曲目时禁用了Ambient Display，也会触发此操作，从而强制在屏幕中间显示带有曲目信息的干净的环境屏幕 屏幕。 \n\n您还可以双击曲目信息以跳到下一首曲目。 \n\n如果您拥有Pixel（第二代及更高版本）并在系统音频设置中启用“正在播放”及其通知，Ambient Music Ticker也可以在其中使用。</string>
+    <string name="ambient_ticker_footer">Ambient Music Ticker 在锁定屏幕和环境屏幕上显示正在播放的音乐曲目信息。\n\n如果在启动新曲目时禁用了 Ambient Display，也会触发此操作，从而强制在屏幕中间显示带有曲目信息的干净的环境屏幕。\n\n您还可以双击曲目信息以跳到下一首曲目。\n\n如果您拥有 Pixel（第二代及更高版本）并在系统音频设置中启用“正在播放”及其通知，Ambient Music Ticker 也可以在其中使用。</string>
 
     <string name="back_height_low_label">全</string>
     <string name="back_height_high_label">底部</string>
@@ -143,13 +143,13 @@
 
     <!-- Doze on charge -->
     <string name="doze_on_charge_title">充电时始终开启</string>
-    <string name="doze_on_charge_summary">充电时始终显示Doze屏幕</string>
+    <string name="doze_on_charge_summary">充电时始终显示 Doze 屏幕</string>
 
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
     <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
-    <string name="total_ram">总RAM大小</string>
+    <string name="total_ram">内存大小</string>
 
     <!-- Changelog -->
     <string name="changelog_title">更新日志</string>
@@ -162,7 +162,7 @@
     <string name="increasing_ring_ramp_up_time_title">增大时间</string>
 
     <!-- SELinux Status -->
-    <string name="selinux_status">SELinux状态</string>
+    <string name="selinux_status">SELinux 状态</string>
     <string name="selinux_status_disabled">关闭</string>
     <string name="selinux_status_permissive">宽容</string>
     <string name="selinux_status_enforcing">强制</string>
@@ -182,8 +182,8 @@
     <string name="gesture_pill_message">隐藏导航栏小药丸</string>
 
     <!-- Hotspot extras -->
-    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用VPN</string>
-    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的VPN连接进行连接</string>
+    <string name="tethering_allow_vpn_upstreams_title">允许客户端使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允许热点客户端使用此设备的 VPN 连接进行连接</string>
 
     <!-- Running services -->
     <string name="background_processes_settings_title">后台程序</string>
@@ -228,9 +228,9 @@
 
     <!-- Refresh rate -->
     <string name="refresh_rate_title">屏幕刷新率</string>
-    <string name="refresh_rate_summary_auto">自动-自动将某些内容的刷新率从60Hz提高到120Hz</string>
-    <string name="refresh_rate_summary_60">60Hz-所有内容的刷新率均锁定在60Hz</string>
-    <string name="refresh_rate_summary_120">120Hz-所有内容的刷新率均锁定在120Hz且耗电增加</string>
+    <string name="refresh_rate_summary_auto">自动 - 自动将某些内容的刷新率从 60Hz 提高到 120Hz</string>
+    <string name="refresh_rate_summary_60">60Hz - 所有内容的刷新率均锁定在 60Hz</string>
+    <string name="refresh_rate_summary_120">120Hz - 所有内容的刷新率均锁定在 120Hz 且耗电增加</string>
     <string name="auto_refresh_rate">自动</string>
 
     <!-- Vibration patterns -->
