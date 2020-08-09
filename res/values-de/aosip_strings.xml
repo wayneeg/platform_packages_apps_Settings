@@ -49,10 +49,6 @@
     <string name="derp_settings_title">DerpQuest</string>
     <string name="derp_extras_qs_title">Schnelleinstellungen</string>
 
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Schnellentriegelung</string>
-    <string name="unlock_quick_unlock_control_summary">Die Sperre wird automatisch aufgehoben, wenn die richtige PIN/das richtige Passwort eingegeben wurde</string>
-
     <!-- Custom light color -->
     <string name="custom_light_title">LED Farbe</string>
     <string name="custom_light_on_time_title">Leuchtdauer während des LED-Impulses (ms)</string>

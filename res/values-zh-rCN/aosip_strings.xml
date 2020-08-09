@@ -73,10 +73,6 @@
     <string name="derp_settings_summary">In Kronic we trust...</string>
     <string name="derp_extras_qs_title">快速设置</string>
 
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">快速解锁</string>
-    <string name="unlock_quick_unlock_control_summary">输入正确的 PIN 或密码后自动解锁</string>
-
     <!-- Custom light color -->
     <string name="custom_light_title">颜色</string>
     <string name="custom_light_on_time_title">LED脉冲期间的开灯时间 (ms)</string>

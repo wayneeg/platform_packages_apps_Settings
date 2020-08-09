@@ -54,9 +54,6 @@
     <!-- DerpQuest Settings strings -->
     <string name="derp_settings_title">DerpQuest</string>
     <string name="derp_extras_qs_title">Configurações Rápidas</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Desbloqueio rápido</string>
-    <string name="unlock_quick_unlock_control_summary">Desbloquear automaticamente quando o PIN/senha correto é inserido</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Cor da luz</string>
     <string name="custom_light_on_time_title">Tempo de luz ativa durante o pulso de LED (ms)</string>

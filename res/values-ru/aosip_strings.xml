@@ -60,9 +60,6 @@
     <string name="derp_settings_title">DerpQuest</string>
     <string name="derp_settings_summary">В Кроника мы верим...</string>
     <string name="derp_extras_qs_title">Быстрые настройки</string>
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Быстрая разблокировка</string>
-    <string name="unlock_quick_unlock_control_summary">Разблокировать автоматически при вводе правильного PIN-кода/пароля</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Цвет светодиода</string>
     <string name="custom_light_on_time_title">Время свечения светодиода (мс)</string>

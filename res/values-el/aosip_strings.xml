@@ -74,10 +74,6 @@
     <string name="derp_settings_title">Ειδικές ρυθμίσεις Derp</string>
     <string name="derp_extras_qs_title">Γρήγορες ρυθμίσεις</string>
 
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_summary">Αυτόματο ξεκλείδωμα, όταν το σωστό ΡIN/κωδικός εισαχθεί</string>
-    <string name="unlock_quick_unlock_control_title">Γρήγορο ξεκλείδωμα</string>
-
     <!-- Custom light color -->
     <string name="custom_light_off_time_title">Παύση φωτισμού σε παλμό led (ms)</string>
     <string name="custom_light_on_time_title">Ενεργοποίηση  φωτισμού σε παλμό led (ms)</string>

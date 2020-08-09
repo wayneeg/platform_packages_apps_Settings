@@ -76,10 +76,6 @@
     <string name="derp_settings_title">डर्पक्वेस्ट</string>
     <string name="derp_extras_qs_title">त्वरित सेटिंग्स</string>
 
-    <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">त्वरित अनलॉक</string>
-    <string name="unlock_quick_unlock_control_summary">सही पिन/पासवर्ड दर्ज करने पर स्वचालित रूप से अनलॉक करें</string>
-
     <!-- Custom light color -->
     <string name="custom_light_title">हल्का रंग</string>
     <string name="custom_light_on_time_title">एलईडी पल्स के दौरान प्रकाश समय (मिली सेकंड)</string>
