@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2012-2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Random summary -->
+    <string-array name="derpquest_summaries">
+        <item>Προειδοποίηση: Απίστευτες ρυθμίσεις εδώ!</item>
+        <item>Στροφή ρυθμίσεων. Έλα Γιώργη!!...</item>
+        <item>Ετοιμαστείτε για ένα υπέροχο 2021.."Εταιρεία πωλήσεων διαστημικών στολών"</item>
+        <item>Ρυθμίσεις DerpNess</item>
+        <item>Ρυθμίσεις DerpQuest. Μη φοβάστε..δοκιμάστε τις</item>
+        <item>Αναζήτηση ρυθμίσεων Derped</item>
+        <item>Οι καλυτερότερες ρυθμίσεις ever!</item>
+        <item>Προσοχή ρε μ...! Ειδικές ρυθμίσεις!</item>
+        <item>Ο κωρονοϊός επεκτείνεται θα πέθανουμε όλοι!</item>
+        <item>Αν ακούς μόνο λαϊκά, μην δοκιμάσεις αυτές τις ρυθμίσεις!</item>
+        <item>Ρυθμίσεις Ράδιο Αρβύλα..Προχωρείστε με προσοχή!</item>
+        <item>Κόψε το "μου αρέσει" και ξεκίνα το "με αρέσει πολύ"</item>
+        <item>Κάρμα ρυθμίσεων στην Ινδία.Στην Ελλάδα το λέμε γαμ. την τύχη μου!</item>
+        <item>Αυτές οι ρυθμίσεις θα αυτοκαταστραφούν σε 5 δευτερ.</item>
+        <item>Τα πράγματα δεν είναι πάντα όπως φαίνονται!</item>
+        <item>Μην το πατήσεις αν δεν είσαι έτοιμος για όλα!</item>
+        <item>Μάθε πρώτα μπάλα κι έλα..</item>
+        <item>Φάε λάδι κι έλα βράδυ..</item>
+        <item>Αν είσαι noobas καλύτερα να φύγεις</item>
+        <item>Σημαντική ανακοίνωση!Αυτάαα..</item>
+        <item>Μη σταματάς...τρέχα..</item>
+        <item>Μη μου μιλάτε..Μόλις ζυγίστηκα!</item>
+        <item>Κουκουνάρια και ρυθμίσεις μέντολες!</item>
+        <item>Μεγάλη μπουκιά φάε...από το πιάτο μου μην είναι μόνο!</item>
+        <item>Ανακοίνωση ΕΟΔΥ!Για αποτρίχωση μπικίνι, χρειάζεται άδεια Δασαρχείου!</item>
+        <item>Αντι το 20 να είναι η χρονιά μας, τελικά μάλλον ήρθε η ώρα μας!</item>
+        <item>Αν δε σου αρέσει η Derp φύγε!</item>
+        <item>Προσοχή μάσκα παντού..και αποσμητικό για μασχάλες. Μην ξεχνιώμαστε!</item>
+        <item>Στεναχωριέμαι...αλλά δεν μου φαίνεται!</item>
+        <item>Προσοχή Ε.Υ.Π. Ότι κάνεις εδώ, το βλέπουμε...:</item>
+        <item>Δεν είμαι εγώ αναποφάσιστος, εσύ δεν ξέρεις τι θέλω!</item>
+        <item>Δεν ελπίζω τπτ, δε φοβάμαι τπτ, τα έχω κάνει ήδη όλα σκατ..!</item>
+        <item>Καλή η μάσκα, αλλά θα ήταν 100% αποτελεσματική, αν έκρυβε και την κοιλιά!</item>
+        <item>Το κουβαδάκι σου και σε άλλη παραλία..</item>
+    </string-array>
+
+</resources>
